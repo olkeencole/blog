@@ -32,9 +32,11 @@ caption = ""
 
 {{< youtube m0_JKJ3cFzU >}}
 
-
+**Synopsis**</br>
 Mythos Unbound is an educational game designed to Greek and roman mythology in a full semester online course. Students play as a new Roman slave who must become literate in Roman culture in order to obtain their freedom. As students are taught about mythology, they enter into various levels designed to emphasize a particular characteristic of that myth. The myths include the Theogony, Odyssey, Alcestis,  Bacchae, the Oresteia and the Metamorphoses.
 
+</br>
+**Development**</br>
 I developed the first and third person controller for all the levels, and designed a cooking game. I also further developed the character controllers and designed the levels for Calypso’s Island and Alcestis (Hercule’s going into the underworld).
 
 ![image alt text](/img/mythos/Odyssey1.png)

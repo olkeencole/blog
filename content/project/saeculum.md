@@ -31,11 +31,17 @@ caption = "Garden in the House of the Vestal Virgins"
 +++
 {{< youtube 31Hz6GOROjk >}}
 
+</br>
 
-Saeculum is first person narrative game designed for a full semester college course.
+**Synopsis** </br>
+Saeculum is first person immersive game designed to teach ancient Roman civilization in a full semester college course.
 
-The game is divided in four parts or “arcs” each depicting a specific era of Rome’s history. Students play as one of the ancestors of the Fulvii family through these different ages where they must help fellow politicians and clients the problems that plague Rome in that particular era. In Arc 1, Rome is in the midst of the 2nd Punic War where Hannibal ravages the country side, and students must help Scipio Africanus to convince the senator to take the fight back to Carthage. In Arc 2, students come to aid of Tiberius Gracchus, who sees the need for drastic land reform, if new citizens and veterans are to have a stable way of life. In Arc 3, students must outsmart the devious Augustus Caesar while trapped as a Vestal Virgin, if they hope to continue the family legacy.
+The game depicts four different time periods of Rome's history, and students play as one of the ancestors of the Fulvii family through these different ages. In each time period, students learn about various issues that Rome faced at that time by exploring how the general population was affected, and talking with politicians, who were divided in their solutions for responding to the issues. 
 
-Working with artists and the lead software engineer, I developed the character pipeline that entailed creating 100+ characters for this ambitious game. We implemented lip syncing, dynamic facial and eye animations along with a combat system. 
+Students have the ability to choose how they will interact with these elements -- whether they will help, hurt, or hinder. In Arc 1, Rome is in the midst of the 2nd Punic War where Hannibal ravages the country side, and students must help Scipio Africanus to convince the senator to take the fight back to Carthage. In Arc 2, students come to aid of Tiberius Gracchus, who sees the need for drastic land reform, if new citizens and veterans are to have a stable way of life. In Arc 3, students must outsmart the devious Augustus Caesar while trapped as a Vestal Virgin, if they hope to continue the family legacy.
+
+</br>
+**Development**</br>
+Working with artists and the lead software engineer, I developed the character pipeline that entailed creating 100+ characters for this ambitious game. We implemented lip syncing, gesture animations, locomotion system, and dynamic facial and eye animations as the base character system. The same system is also used in our Combat, Stealth, Debate, and Dialogue system. 
 
 ![image alt text](/img/saeculum/AtriumVestaeGarden.png)

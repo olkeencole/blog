@@ -6,7 +6,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Keenan Cole"
+title   = "Keenan Cole"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -15,10 +15,11 @@ copyright = "&copy; 2018"
 theme = "academic"
 
 enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-paginate = 10
+
+footnotereturnlinkcontents    = "<sup>^</sup>"
+ignoreFiles                   = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames         = true
+paginate                      = 10
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -27,24 +28,24 @@ disqusShortname = ""
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+defaultContentLanguage         = "en"
+hasCJKLanguage                 = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
+  home    = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 
 [blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
-  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+  hrefTargetBlank    = true  # `true` opens external links in a new tab.
+  fractions          = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants        = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
   # Color theme.
@@ -55,6 +56,8 @@ enableGitInfo = false
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
+
+
   # Your details.
   name = "Keenan Cole"
   role = "Game Developer, Graphics Programmer and Unity Engine Expert"
@@ -63,13 +66,14 @@ enableGitInfo = false
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Freelance", url = "" } ]
 
-  gravatar = false             # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.png"      # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "keenancole@gmail.com"
+  gravatar  = false             # Get your avatar from Gravatar.com? (true/false)
+  avatar    = "portrait.png"      # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email     = "keenancole@gmail.com"
   instagram = "//www.instagram.com/"
 
-#  phone = "888 888 88 88"
 
+#  phone = "888 888 88 88"
+# telegram??
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -83,13 +87,18 @@ enableGitInfo = false
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
   logo = ""
 
+  # MAP SETTINGS
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
   # a map provider below.
+
   # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
   #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  
   # To use OpenStreetMap tiles, set `map = 2`.
+  
   # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
+  
   #   https://www.mapbox.com/studio/account/tokens
   # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
   #
@@ -208,6 +217,8 @@ enableGitInfo = false
     #   3 = MLA
     publication_format = 3
 
+
+
   # Social/Academic Networking
   #
   # Icon pack "fa" includes the following social network icons:
@@ -267,10 +278,10 @@ enableGitInfo = false
   align_right = true
 
 
-#[[menu.main]]
-#  name = "Home"
-#  url = "#teaching"
-#  weight = 7
+[[menu.main]]
+  name = "Home"
+  url = "#teaching"
+  weight = 1
 
 [[menu.main]]
   name = "Home"
